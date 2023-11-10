@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100&family=Rubik:ital,wght@0,300;1,700&display=swap');
+*{
+    margin:0;
+    
+}
+body{
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    height:100vh;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+body main{
+    background: hsl(216, 50%, 16%);
+    padding:10px;
+    border-radius: 5px;
+    width:300px;
+    
+    
+}
+#imgcontainer{
+    width: 300px;
+    position: relative;
+    margin-bottom: 5px;
+}
+#img{
+    width:100%
+}
+#hover{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color: 	rgba(0,255,247,0.5);
+    display: none;
+}
+#imgcontainer #hover img{
+    width: 50px;
+    position: absolute;
+    top:45%;
+    left:45%
+}
+.hoverVisible{
+    display: block !important;
+}
+h1{cursor: pointer;}
+h1:hover, #creator:hover{
+    color:hsl(178, 100%, 50%)
+}
+#creation img{
+    width:17px
+}
+#flex, #flex div{
+    display: flex;
+}
+#time_stamp{
+    margin-left: 100px;
+}
+hr{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+span{
+    color:gray
+}
+#creator{
+    color:white
+}
